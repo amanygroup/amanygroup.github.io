@@ -1,0 +1,1103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* WARNA */
+:root {
+  --green: #008b62;
+  --green-dark: #013914;
+  --green-tosca: #8ed1a2;
+  --black: #192a56;
+  --light-color: #666;
+  --yellow: #f0cc03;
+  --red: #ce0101;
+  --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+}
+
+body {
+  background: url(img/gambar-jumbotron.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-position-y: 160px;
+  background-position-x: 95%;
+  background-size: 55vmax;
+}
+
+/* TOMBOL */
+.tombol {
+  z-index: 99999;
+}
+.tombol i {
+  position: fixed;
+  font-size: 45px;
+  color: rgb(179, 179, 179);
+  bottom: 10%;
+  right: 30px;
+  opacity: 50%;
+}
+.tombol i:hover {
+  color: #666;
+  opacity: 100%;
+}
+/* AKHIR TOMBOL */
+
+nav .navbar-nav {
+  margin: 5px;
+  font-size: 18px;
+  list-style: none;
+  text-decoration: none;
+  transition: all ease 0.5s;
+}
+nav .navbar-nav .nav-link {
+  margin: 5px;
+  font-size: 18px;
+  color: var(--black);
+  list-style: none;
+  text-decoration: none;
+  transition: all ease 0.5s;
+}
+nav .navbar-nav .nav-link:hover {
+  color: var(--green);
+}
+
+nav .navbar-brand {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--black);
+  letter-spacing: 1px;
+  list-style: none;
+  text-decoration: none;
+  transition: all ease 0.5s;
+}
+
+nav .navbar-brand img {
+  width: 15%;
+}
+
+/* JUMBOTRON */
+.jumbotron p {
+  font-size: 16px;
+  margin-top: 0.8rem;
+}
+.jumbotron h3 {
+  font-size: 46px;
+  font-weight: 900;
+  color: var(--green-dark);
+}
+.jumbotron h4 {
+  font-size: 46px;
+  font-weight: 900;
+  color: var(--green-dark);
+}
+.jumbotron img {
+  width: 30%;
+}
+.jumbotron .btn {
+  background-color: var(--green-tosca);
+  padding: 0.5rem 3rem;
+  color: white;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: all ease 0.5s;
+}
+.jumbotron .btn:hover {
+  background-color: var(--green);
+  color: #8ed1a2;
+}
+
+/* ABOUT */
+#about {
+  margin-top: 4rem;
+}
+
+.about h1 {
+  color: var(--green-dark);
+  font-size: 32px;
+  margin-top: 2rem;
+}
+.about h2 {
+  color: var(--green-dark);
+  font-size: 24px;
+  font-weight: 700;
+}
+.about img {
+  width: 95%;
+  margin-bottom: 5rem;
+}
+
+.about .content-about {
+  margin-top: 2rem;
+}
+
+/* SERVICE */
+.service h1 {
+  color: var(--green-dark);
+  font-size: 32px;
+}
+
+.service .satu h1 {
+  color: var(--green);
+  margin-top: 3rem;
+  font-size: 26px;
+}
+.service .service-content .card {
+  padding: 2rem;
+  margin-bottom: 1.6rem;
+  border-radius: 30px;
+  box-shadow: var(--box-shadow);
+}
+.service .service-content .card h2 {
+  color: var(--green);
+  font-weight: 700;
+}
+.service .service-content .card h3 {
+  color: var(--black);
+  font-size: 18px;
+  margin-top: 0.5rem;
+}
+.service .service-content .card button {
+  color: var(--black);
+  font-size: 18px;
+  margin-top: 0.5rem;
+  padding: 0.5rem 2rem;
+  border-radius: 20px;
+}
+.service .service-content .card .btn-satu {
+  background-color: var(--green);
+  color: white;
+  cursor: text;
+}
+.service .service-content .card .btn-dua {
+  background-color: var(--red);
+  color: white;
+  cursor: text;
+}
+
+.service .dua h1 {
+  margin-top: 3rem;
+  color: var(--green);
+}
+
+/* PROJECT */
+#project {
+  margin-top: 3rem;
+}
+
+.project .card {
+  margin-top: 1.8rem;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+}
+.project .card img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.project h1 {
+  color: var(--green);
+  font-size: 32px;
+}
+
+/* MILIH */
+#milih {
+  margin-top: 5rem;
+  background-image: url(img/cream_pixels.png);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-shadow: var(--box-shadow);
+}
+
+.milih h2 {
+  color: var(--black);
+  font-size: 20px;
+  color: var(--red);
+}
+.milih h1 {
+  color: var(--green);
+  font-size: 32px;
+}
+.milih h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.milih .milih-content .card {
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  background-color: var(--green);
+}
+
+/* CONTACT */
+#contact {
+  margin-top: 5rem;
+}
+
+.contact h1 {
+  font-size: 32px;
+  color: var(--green);
+}
+
+.contact .contact-content {
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contact-content i {
+  font-size: 46px;
+}
+.contact .contact-content a {
+  color: #008b62;
+}
+.contact .contact-content a:hover {
+  color: #d409ca;
+}
+
+/* LOKASI */
+#lokasi {
+  margin-top: 5rem;
+}
+
+.lokasi h1 {
+  font-size: 32px;
+  color: var(--green);
+}
+
+/* FOOTER */
+
+.footer {
+  background: var(--green);
+  margin-top: 3rem;
+}
+
+.footer .footer-konten {
+  padding-bottom: 2rem;
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer img {
+  width: 200px;
+  padding-top: 5rem;
+}
+
+.footer .footer-konten h3 {
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+  color: var(--yellow);
+  margin-top: 5rem;
+  font-weight: 600;
+}
+
+.footer .footer-konten ul li a {
+  display: block;
+  padding: 0.2rem 0;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  list-style: none;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.footer .footer-konten ul li a:hover {
+  color: #119cec;
+}
+
+.footer .footer-konten i {
+  font-size: 24px;
+  padding: 10px;
+}
+
+.footer .credit {
+  text-align: center;
+  font-size: 12px;
+  color: var(--black);
+  padding: 0.5rem;
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+  background-color: white;
+}
+
+.footer .credit span {
+  color: var(--red);
+}
+/* AKHIR FOOTER */
+
+/* DEKSTOP */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .milih h3 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    background-position-y: 70px;
+    background-position-x: 95%;
+  }
+  #home {
+    margin-top: 5rem;
+  }
+  .jumbotron img {
+    width: 30%;
+  }
+
+  .jumbotron .btn {
+    align-items: center;
+    justify-content: center;
+    margin-right: 8rem;
+  }
+  /* ABOUT */
+  #about {
+    margin-top: 2rem;
+  }
+
+  .about h1 {
+    color: var(--green-dark);
+    font-size: 26px;
+    margin-top: 2rem;
+  }
+  .about h2 {
+    color: var(--green-dark);
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .about p {
+    font-size: 14px;
+  }
+
+  /* SERVICE */
+  .service h1 {
+    color: var(--green-dark);
+    font-size: 26px;
+    margin-top: 2rem;
+  }
+
+  .service .satu h1 {
+    margin-top: 1rem;
+    font-size: 24px;
+  }
+  .service .service-content .card {
+    margin-bottom: 1.6rem;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+  }
+  .service .service-content .card h2 {
+    color: var(--green);
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .service .service-content .card h3 {
+    color: var(--black);
+    font-size: 18px;
+    margin-top: 0.5rem;
+  }
+  .service .service-content .card button {
+    color: var(--black);
+    font-size: 14px;
+    margin-top: 0.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+  }
+  .service .service-content .card .btn-satu {
+    background-color: var(--green);
+    color: white;
+    cursor: text;
+  }
+  .service .service-content .card .btn-dua {
+    background-color: var(--red);
+    color: white;
+    cursor: text;
+  }
+
+  .service .dua h1 {
+    margin-top: 1rem;
+    color: var(--green);
+    font-size: 24px;
+  }
+
+  /* PROJECT */
+  #project {
+    margin-top: 3rem;
+  }
+
+  .project .card {
+    margin-top: 1.5rem;
+  }
+  .project h1 {
+    color: var(--green);
+    font-size: 26px;
+  }
+
+  /* MILIH */
+  #milih {
+    margin-top: 2rem;
+    background-image: url(img/cream_pixels.png);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: var(--box-shadow);
+  }
+
+  .milih h2 {
+    color: var(--black);
+    font-size: 18px;
+    color: var(--red);
+  }
+  .milih h1 {
+    color: var(--green);
+    font-size: 26px;
+  }
+  .milih h3 {
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .milih .milih-content .card {
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    background-color: var(--green);
+  }
+
+  /* CONTACT */
+  #contact {
+    margin-top: 3rem;
+  }
+
+  .contact h1 {
+    font-size: 26px;
+    color: var(--green);
+  }
+
+  .contact .contact-content {
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .contact-content i {
+    font-size: 36px;
+  }
+
+  /* LOKASI */
+  #lokasi {
+    margin-top: 3rem;
+  }
+
+  .lokasi h1 {
+    font-size: 26px;
+    color: var(--green);
+  }
+
+  /* FOOTER */
+  .footer .footer-konten {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .footer img {
+    width: 150px;
+    padding-top: 5rem;
+  }
+
+  .footer .footer-konten h3 {
+    padding: 0.5rem 0;
+    font-size: 1.3rem;
+    color: var(--yellow);
+    margin-top: 5rem;
+    font-weight: 600;
+  }
+
+  .footer .footer-konten ul li a {
+    display: block;
+    padding: 0.2rem 0;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+
+  .footer .footer-konten ul li a:hover {
+    color: #119cec;
+  }
+
+  .footer .footer-konten i {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .footer .credit {
+    text-align: center;
+    font-size: 12px;
+    color: var(--black);
+    padding: 0.5rem;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+    background-color: white;
+  }
+
+  .footer .credit span {
+    color: var(--red);
+  }
+}
+
+/* LANSCAPE */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  body {
+    background-position-y: 90px;
+    background-position-x: 60%;
+  }
+  /* JUMBOTRON */
+  #home {
+    margin-top: 13rem;
+  }
+  .jumbotron {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .jumbotron p {
+    font-size: 14px;
+    margin-top: 0.8rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .jumbotron h3 {
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--green-dark);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .jumbotron h4 {
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--green-dark);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .jumbotron img {
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .jumbotron .btn {
+    margin-top: 1rem;
+    background-color: var(--green-tosca);
+    padding: 0.5rem 3rem;
+    color: white;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: all ease 0.5s;
+  }
+  .jumbotron .btn:hover {
+    background-color: var(--green);
+    color: #8ed1a2;
+  }
+  /* ABOUT */
+  #about {
+    margin-top: 2rem;
+  }
+
+  .about h1 {
+    color: var(--green-dark);
+    font-size: 24px;
+    margin-top: 1rem;
+  }
+  .about h2 {
+    color: var(--green-dark);
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .about p {
+    font-size: 14px;
+  }
+
+  /* SERVICE */
+  .service h1 {
+    color: var(--green-dark);
+    font-size: 26px;
+    margin-top: 1rem;
+  }
+
+  .service .satu h1 {
+    margin-top: 1rem;
+    font-size: 24px;
+  }
+  .service .service-content .card {
+    margin-bottom: 1.6rem;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+  }
+  .service .service-content .card h2 {
+    color: var(--green);
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .service .service-content .card h3 {
+    color: var(--black);
+    font-size: 18px;
+    margin-top: 0.5rem;
+  }
+  .service .service-content .card button {
+    color: var(--black);
+    font-size: 14px;
+    margin-top: 0.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+  }
+  .service .service-content .card .btn-satu {
+    background-color: var(--green);
+    color: white;
+    cursor: text;
+  }
+  .service .service-content .card .btn-dua {
+    background-color: var(--red);
+    color: white;
+    cursor: text;
+  }
+
+  .service .dua h1 {
+    margin-top: 1rem;
+    color: var(--green);
+    font-size: 24px;
+  }
+
+  /* PROJECT */
+  #project {
+    margin-top: 3rem;
+  }
+
+  .project .card {
+    margin-top: 1.5rem;
+  }
+  .project h1 {
+    color: var(--green);
+    font-size: 26px;
+  }
+
+  /* MILIH */
+  #milih {
+    margin-top: 2rem;
+    background-image: url(img/cream_pixels.png);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: var(--box-shadow);
+  }
+
+  .milih h2 {
+    color: var(--black);
+    font-size: 18px;
+    color: var(--red);
+  }
+  .milih h1 {
+    color: var(--green);
+    font-size: 20px;
+  }
+  .milih h3 {
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .milih .milih-content .card {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    background-color: var(--green);
+  }
+
+  /* CONTACT */
+  #contact {
+    margin-top: 3rem;
+  }
+
+  .contact h1 {
+    font-size: 24px;
+    color: var(--green);
+  }
+
+  .contact .contact-content {
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .contact-content i {
+    font-size: 32px;
+  }
+
+  /* LOKASI */
+  #lokasi {
+    margin-top: 3rem;
+  }
+
+  .lokasi h1 {
+    font-size: 26px;
+    color: var(--green);
+  }
+
+  /* FOOTER */
+  .footer .footer-konten {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .footer img {
+    width: 150px;
+    padding-top: 3rem;
+  }
+
+  .footer .footer-konten h3 {
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+    color: var(--yellow);
+    margin-top: 2rem;
+    font-weight: 600;
+  }
+
+  .footer .footer-konten ul li a {
+    display: block;
+    padding: 0.2rem 0;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+
+  .footer .footer-konten ul li a:hover {
+    color: #119cec;
+  }
+
+  .footer .footer-konten i {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .footer .credit {
+    text-align: center;
+    font-size: 12px;
+    color: var(--black);
+    padding: 0.5rem;
+    padding-top: 1.5rem;
+    margin-top: 1rem;
+    background-color: white;
+  }
+
+  .footer .credit span {
+    color: var(--red);
+  }
+}
+
+/* POTRAIT */
+@media screen and (max-width: 575px) {
+  body {
+    background-position-y: 90px;
+    background-position-x: 60%;
+  }
+  /* NAVBAR */
+  nav .navbar-nav {
+    margin: 5px;
+    font-size: 18px;
+    list-style: none;
+    text-decoration: none;
+    transition: all ease 0.5s;
+  }
+  nav .navbar-nav .nav-link {
+    margin: 5px;
+    font-size: 12px;
+    color: var(--black);
+    list-style: none;
+    text-decoration: none;
+    transition: all ease 0.5s;
+  }
+  nav .navbar-nav .nav-link:hover {
+    color: var(--green);
+  }
+
+  nav .navbar-brand {
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--black);
+    letter-spacing: 1px;
+    list-style: none;
+    text-decoration: none;
+    transition: all ease 0.5s;
+  }
+
+  nav .navbar-brand img {
+    width: 20%;
+  }
+
+  /* JUMBOTRON */
+  #home {
+    margin-top: 15rem;
+  }
+  .jumbotron {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .jumbotron p {
+    font-size: 14px;
+    margin-top: 0.8rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .jumbotron h3 {
+    font-size: 26px;
+    font-weight: 900;
+    color: var(--green-dark);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .jumbotron h4 {
+    font-size: 26px;
+    font-weight: 900;
+    color: var(--green-dark);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .jumbotron img {
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .jumbotron .btn {
+    margin-top: 1rem;
+    background-color: var(--green-tosca);
+    font-size: 14px;
+    padding: 0.5rem 3rem;
+    color: white;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: all ease 0.5s;
+  }
+  .jumbotron .btn:hover {
+    background-color: var(--green);
+    color: #8ed1a2;
+  }
+  /* ABOUT */
+  #about {
+    margin-top: 1rem;
+  }
+
+  .about h1 {
+    color: var(--green-dark);
+    font-size: 20px;
+    margin-top: 1rem;
+  }
+  .about h2 {
+    color: var(--green-dark);
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: -3rem;
+  }
+  .about p {
+    font-size: 14px;
+  }
+
+  /* SERVICE */
+  .service h1 {
+    color: var(--green-dark);
+    font-size: 20px;
+    margin-top: 1rem;
+  }
+
+  .service .satu h1 {
+    margin-top: 1rem;
+    font-size: 20px;
+  }
+  .service .service-content .card {
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+  }
+  .service .service-content .card h2 {
+    color: var(--green);
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .service .service-content .card h3 {
+    color: var(--black);
+    font-size: 16px;
+    margin-top: 0.3rem;
+  }
+  .service .service-content .card button {
+    color: var(--black);
+    font-size: 14px;
+    margin-top: 0.3rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+  }
+  .service .service-content .card .btn-satu {
+    background-color: var(--green);
+    color: white;
+    cursor: text;
+  }
+  .service .service-content .card .btn-dua {
+    background-color: var(--red);
+    color: white;
+    cursor: text;
+  }
+
+  .service .dua h1 {
+    margin-top: 1rem;
+    color: var(--green);
+    font-size: 20px;
+  }
+
+  /* PROJECT */
+  #project {
+    margin-top: 2rem;
+  }
+
+  .project .card {
+    margin-top: 1.5rem;
+  }
+  .project h1 {
+    color: var(--green);
+    font-size: 26px;
+  }
+
+  /* MILIH */
+  #milih {
+    margin-top: 2rem;
+    background-image: url(img/cream_pixels.png);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: var(--box-shadow);
+  }
+
+  .milih h2 {
+    color: var(--black);
+    font-size: 16px;
+    color: var(--red);
+  }
+  .milih h1 {
+    color: var(--green);
+    font-size: 18px;
+  }
+  .milih h3 {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .milih .milih-content .card {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    background-color: var(--green);
+  }
+
+  /* CONTACT */
+  #contact {
+    margin-top: 2rem;
+  }
+
+  .contact h1 {
+    font-size: 20px;
+    color: var(--green);
+  }
+  .contact p {
+    font-size: 12px;
+  }
+
+  .contact .contact-content {
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .contact-content i {
+    font-size: 32px;
+    margin-bottom: 1rem;
+  }
+
+  /* LOKASI */
+  #lokasi {
+    margin-top: 2rem;
+  }
+
+  .lokasi h1 {
+    font-size: 20px;
+    color: var(--green);
+  }
+
+  /* FOOTER */
+  .footer .footer-konten {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .footer img {
+    width: 150px;
+    padding-top: 3rem;
+  }
+
+  .footer .footer-konten h3 {
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+    color: var(--yellow);
+    margin-top: 2rem;
+    font-weight: 600;
+  }
+
+  .footer .footer-konten ul li a {
+    display: block;
+    padding: 0.2rem 0;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+
+  .footer .footer-konten ul li a:hover {
+    color: #119cec;
+  }
+
+  .footer .footer-konten i {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .footer .credit {
+    text-align: center;
+    font-size: 12px;
+    color: var(--black);
+    padding: 0.5rem;
+    padding-top: 1.5rem;
+    margin-top: 1rem;
+    background-color: white;
+  }
+
+  .footer .credit span {
+    color: var(--red);
+  }
+}
