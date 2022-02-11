@@ -116,6 +116,12 @@ nav .navbar-brand img {
   color: #8ed1a2;
 }
 
+.jumbotron .btn a{
+  list-style:none ;
+  text-decoration: none;
+  color: white;
+}
+
 /* ABOUT */
 #about {
   margin-top: 4rem;
@@ -308,7 +314,6 @@ nav .navbar-brand img {
   color: rgb(255, 255, 255);
   list-style: none;
   text-decoration: none;
-  text-transform: lowercase;
 }
 
 .footer .footer-konten ul li a:hover {
